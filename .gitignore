@@ -23,10 +23,13 @@
 !.github/
 !.github/**
 !.ssh
+!.ssh/work
+!.ssh/work/.gitkeep
 !.ssh/config
 
 # Exclude some files in directories
 .config/karabiner/automatic_backups
 .config/brazil
+.vim/.netrwhist
 btop.log
 foo
