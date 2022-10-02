@@ -7,11 +7,16 @@ The repository uses an inverse `.gitignore` where each file included must be exp
 ## Usage
 
 ### Adding the repository to a new system
+Create a local repository in the home directory and fetch the files from Github
+
+    cd
     git init
     git remote add origin git@github.com:greyshi/dotfiles.git
     git fetch
 
-    # Warning: The following command will override everything in the home directory that is included in the repository. This is meant to run on a fresh install, so this shouldn't be an issue.
+
+**Warning**: The next command will override all the dotfiles in the home directory that are included in the repository. This is meant to run on a fresh install, so this shouldn't be an issue. If there are configurations you want to keep, back them up before running it.
+
     git switch -f $BRANCH
 
 ### Installation scripts

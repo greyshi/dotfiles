@@ -11,7 +11,7 @@ alias scd="cd"
 alias dl="cd ~/Downloads"
 alias dc="cd ~/Documents"
 alias dt="cd ~/Desktop"
-alias p="cd ~/Projects"
+alias p="cd ~/Dropbox/Projects"
 alias g="git"
 alias c="clear"
 alias h="history"
@@ -20,7 +20,6 @@ alias vi="vim"
 alias vf='vim $(fzf)'
 alias o="open"
 alias oo="open ."
-alias code="open /Applications/Visual\ Studio\ Code.app"
 
 alias grep="rg"
 

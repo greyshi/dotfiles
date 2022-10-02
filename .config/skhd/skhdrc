@@ -4,6 +4,22 @@
 # a reference only, when making your own configuration..          #
 # ############################################################### #
 
+# Focus applications
+ctrl - s : open -a "Google Chrome"
+ctrl - m : open -a "Mail"
+ctrl - g : open -a "Calendar"
+ctrl - m : open -a "Mail"
+ctrl - n : open -a "Slack"
+ctrl - f : open -a "Visual Studio Code"
+hyper - t : open -a "iTerm"
+# 0x32 is the ` key
+ctrl - 0x32 : open -a "Spotify"
+
+# Open new terminal widow
+ctrl - return : osascript ~/.config/skhd/new-iterm-window.scpt
+
+#### Yabai Mappings ####
+
 # focus window
 hyper - h : yabai -m window --focus west
 hyper - l : yabai -m window --focus east
