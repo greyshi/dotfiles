@@ -22,6 +22,8 @@
 !.config/**
 !.github/
 !.github/**
+!.ssh
+!.ssh/config
 
 # Exclude some files in directories
 .config/karabiner/automatic_backups
