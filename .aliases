@@ -20,6 +20,7 @@ alias vi="vim"
 alias vf='vim $(fzf)'
 alias o="open"
 alias oo="open ."
+alias am="git add -A && git commit -av --amend"
 
 alias grep="rg"
 

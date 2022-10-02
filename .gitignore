@@ -14,6 +14,7 @@
 !.macos
 !.ideavimrc
 !.brew.sh
+!.tmux.conf.local
 
 # Recursively allow files under directories
 !.vim/

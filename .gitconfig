@@ -13,14 +13,17 @@
 	# View abbreviated SHA, description, and history graph of the latest 20 commits.
 	l = log --pretty=medium -n 20 --graph --abbrev-commit
 
-	# View the current working tree status using the short format.
-	s = status -s
+	# View the current working tree status using the short format with before/ahead commit count.
+	s = status -s -b
 
     # Show commit
     sh = show
 
 	# Show the diff between the latest commit and the current state.
-	d = !"git diff-index --quiet HEAD -- || clear; git diff --patch-with-stat"
+	d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
+
+	# Show the staged diff
+	dc = !"git --no-pager diff --cached --patch-with-stat"
 
 	# `git di $number` shows the diff between the state `$number` revisions ago and the current state.
 	di = !"d() { git diff --patch-with-stat HEAD~$1; }; git diff-index --quiet HEAD -- || clear; d"
