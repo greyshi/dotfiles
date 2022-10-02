@@ -1,0 +1,25 @@
+# Ignore everything
+*
+/*
+
+# Include individual files
+!.zshrc
+!.zprofile
+!.vimrc
+!.fzf.zsh
+!.aliases
+!.macos
+!.ideavimrc
+!.gitignore
+!.global.gitignore
+
+# Recursively allow files under directories
+!.vim/
+!.vim/**
+!.config/
+!.config/**
+
+# Exclude some files in directories
+.config/karabiner/automatic_backups
+.config/brazil
+btop.log
