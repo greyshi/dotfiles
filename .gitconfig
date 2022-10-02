@@ -4,9 +4,9 @@
     email = arashghoreyshi@gmail.com
 
 # Allows overriding name and email when on work computer
-[includeIf "gitdir:~/.work/"]
+[includeIf "gitdir:/Users/ghoreysh/Projects/"]
 
-    path = ~/.work/.gitconfig
+    path = ~/Projects/.gitconfig
 
 [alias]
 
