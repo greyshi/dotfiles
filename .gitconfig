@@ -1,6 +1,12 @@
 [user]
 
 	name = greyshi
+    email = arashghoreyshi@gmail.com
+
+# Allows overriding name and email when on work computer
+[includeIf "gitdir:~/.work/"]
+
+    path = ~/.work/.gitconfig
 
 [alias]
 
