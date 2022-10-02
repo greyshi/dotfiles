@@ -3,6 +3,9 @@
 /*
 
 # Include individual files
+!.gitconfig
+!.gitignore
+!.global.gitignore
 !.zshrc
 !.zprofile
 !.vimrc
@@ -10,9 +13,7 @@
 !.aliases
 !.macos
 !.ideavimrc
-!.gitconfig
-!.gitignore
-!.global.gitignore
+!.brew.sh
 
 # Recursively allow files under directories
 !.vim/

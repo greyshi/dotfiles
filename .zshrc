@@ -54,5 +54,5 @@ export LESS='-RiS#3NM~g'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# Work configurations
-source ~/.work.zsh
+# Load work configurations if they exist
+test -f ~/.work.zsh && source ~/.work.zsh
