@@ -18,6 +18,8 @@
 # Recursively allow files under directories
 !.vim/
 !.vim/**
+!.tmux/
+!.tmux/**
 !.config/
 !.config/**
 !.github/
@@ -27,9 +29,18 @@
 !.ssh/work/.gitkeep
 !.ssh/config
 
+
+
 # Exclude some files in directories
 .config/karabiner/automatic_backups
 .config/brazil
 .vim/.netrwhist
 btop.log
 foo
+.config/configstore/
+.config/cr/
+.config/envman/
+.config/fish/
+.config/git/
+.config/rde/
+.config/syncthing/

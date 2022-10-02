@@ -1,7 +1,6 @@
 " Make Vim more useful
 set nocompatible
 " Set colorscheme
-set termguicolors
 let g:dracula_colorterm = 0
 let g:dracula_italic = 0
 packadd! dracula

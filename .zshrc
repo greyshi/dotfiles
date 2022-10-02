@@ -1,10 +1,13 @@
 # Path to oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-# Pure theme
-fpath+=("$(brew --prefix)/share/zsh/site-functions")
-autoload -U promptinit; promptinit
-prompt pure
+# macOS specific configuration
+if [[ $OSTYPE == 'darwin'* ]]; then
+    # Pure theme
+    fpath+=("$(brew --prefix)/share/zsh/site-functions")
+    autoload -U promptinit; promptinit
+    prompt pure
+fi
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
@@ -45,14 +48,15 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-source ~/.aliases
-
 export EDITOR='vim'
 
 # User configuration
 export LESS='-RiS#3NM~g'
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 # Load work configurations if they exist
 test -f ~/.work.zsh && source ~/.work.zsh
+
+source ~/.aliases
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
