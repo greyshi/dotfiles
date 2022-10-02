@@ -20,6 +20,8 @@
 !.vim/**
 !.config/
 !.config/**
+!.github/
+!.github/**
 
 # Exclude some files in directories
 .config/karabiner/automatic_backups
