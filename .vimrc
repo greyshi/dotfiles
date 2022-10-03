@@ -131,3 +131,4 @@ endfunction
 nnoremap <CR> :noh<CR><CR>
 
 nnoremap <D-v> "+p
+
