@@ -19,8 +19,6 @@
 # Recursively allow files under directories
 !.vim/
 !.vim/**
-!.tmux/
-!.tmux/**
 !.config/
 !.config/**
 !.github/
