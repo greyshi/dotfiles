@@ -30,10 +30,10 @@ hyper - j : yabai -m window --focus south
 # shift + alt - h : yabai -m window --warp north
 
 # swap managed window
-cmd + shift - h : yabai -m window --swap west
-cmd + shift - l : yabai -m window --swap east
-cmd + shift - k : yabai -m window --swap north
-cmd + shift - j : yabai -m window --swap south
+alt - h : yabai -m window --swap west
+alt - l : yabai -m window --swap east
+alt - k : yabai -m window --swap north
+alt - j : yabai -m window --swap south
 
 # balance size of windows
 hyper - r : yabai -m space --balance
