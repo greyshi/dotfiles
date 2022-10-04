@@ -28,6 +28,7 @@ brew install bat
 brew install syncthing
 brew install ripgrep
 brew install pure
+brew install jq
 
 brew install FelixKratz/formulae/sketchybar
 brew install koekeishiya/formulae/yabai

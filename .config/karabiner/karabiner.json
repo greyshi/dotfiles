@@ -31,7 +31,7 @@
                                 "to": [
                                     {
                                         "key_code": "left_control",
-										"lazy": true
+                                        "lazy": true
                                     }
                                 ],
                                 "to_if_alone": [
@@ -56,15 +56,15 @@
                                     }
                                 },
                                 "to": [
-									{
-										"key_code": "left_command",
-										"modifiers": [
-											"left_control",
-											"left_shift",
-											"left_option"
-										],
-										"lazy": true
-									}
+                                    {
+                                        "key_code": "left_command",
+                                        "lazy": true,
+                                        "modifiers": [
+                                            "left_control",
+                                            "left_shift",
+                                            "left_option"
+                                        ]
+                                    }
                                 ],
                                 "to_if_alone": [
                                     {
@@ -185,8 +185,7 @@
                                         "mandatory": [
                                             "left_control"
                                         ],
-                                        "optional": [
-                                        ]
+                                        "optional": []
                                     }
                                 },
                                 "to": [
@@ -203,8 +202,7 @@
                                         "mandatory": [
                                             "left_control"
                                         ],
-                                        "optional": [
-                                        ]
+                                        "optional": []
                                     }
                                 },
                                 "to": [
@@ -221,8 +219,7 @@
                                         "mandatory": [
                                             "left_control"
                                         ],
-                                        "optional": [
-                                        ]
+                                        "optional": []
                                     }
                                 },
                                 "to": [
@@ -239,8 +236,7 @@
                                         "mandatory": [
                                             "left_control"
                                         ],
-                                        "optional": [
-                                        ]
+                                        "optional": []
                                     }
                                 },
                                 "to": [
@@ -697,6 +693,34 @@
                         "is_keyboard": false,
                         "is_pointing_device": true,
                         "product_id": 834,
+                        "vendor_id": 1452
+                    },
+                    "ignore": true,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": [],
+                    "treat_as_built_in_keyboard": false
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 835,
+                        "vendor_id": 1452
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": true,
+                    "simple_modifications": [],
+                    "treat_as_built_in_keyboard": false
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": false,
+                        "is_pointing_device": true,
+                        "product_id": 835,
                         "vendor_id": 1452
                     },
                     "ignore": true,

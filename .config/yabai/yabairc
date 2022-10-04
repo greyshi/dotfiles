@@ -10,9 +10,9 @@
 #
 # see this wiki page for information:
 #  - https://github.com/koekeishiya/yabai/wiki/Installing-yabai-(latest-release)
-#
-# yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
-# sudo yabai --load-sa
+
+yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
+sudo yabai --load-sa
 
 # global settings
 yabai -m config                                 \
@@ -20,7 +20,7 @@ yabai -m config                                 \
     focus_follows_mouse          off            \
     window_origin_display        default        \
     window_placement             second_child   \
-    window_topmost               on             \
+    window_topmost               off            \
     window_shadow                on             \
     window_animation_duration    0.0            \
     window_opacity_duration      0.0            \
@@ -51,8 +51,18 @@ yabai -m config                                 \
 
 # Sets top padding based on whether running on the notched screen or not
 yabai -m signal --add event=display_changed action="python3 ~/.config/yabai/set_padding.py"
+python3 ~/.config/yabai/set_padding.py
 
-# Always float
-yabai -m rule --add app="^(Calculator|Messages|System Preferences|Photo Booth|Archive Utility|Python|Alfred|Alfred Preferences|App Store|Activity Monitor|Dictionary|Software Update|System Information|App Store|Calendar|Mail|Finder|Slack|Cisco AnyConnect Secure Mobility Client|Finder|Amazon Chime)$" manage=off
+# Applications that are tiled by yabai
+applications="(Google Chrome|iTerm2|Code|IntelliJ IDEA)"
+
+yabai -m rule --add app!="^${applications}$" manage=off
+
+# Everything listed gets sent to below layer to prevent 
+# them from covering floating applications/popup windows
+
+# Need to exclude iterm from applications or else it breaks hotkey window, so we don't use the full application list
+#yabai -m rule --add app="^${applications}$"    manage=on layer=below
+yabai -m rule --add app="^(Google Chrome|Code|IntelliJ IDEA)$"    manage=on layer=below
 
 echo "yabai configuration loaded.."
