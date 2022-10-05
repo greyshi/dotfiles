@@ -43,10 +43,14 @@ alias grbi="git rebase -i"
 alias gst="git stash"
 alias gstp="git stash pop"
 
+alias python="python3"
+
 alias rg="rg --no-ignore-vcs -S"
 alias grep="rg --no-ignore-vcs -S"
 
 alias bat="bat --theme Dracula"
+
+alias b="backlight"
 
 # Replace cat with bat
 alias cat="bat --paging=never -p"

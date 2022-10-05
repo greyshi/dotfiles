@@ -50,11 +50,30 @@ yabai -m config                                 \
     mouse_drop_action            swap
 
 # Set top padding based on whether running on the notched screen or not
-yabai -m signal --add event=display_changed action="python3 ~/.config/yabai/set_padding.py"
-python3 ~/.config/yabai/set_padding.py
+#yabai -m signal --add event=display_changed action="python3 ~/.config/yabai/set_padding.py"
+#python3 ~/.config/yabai/set_padding.py
 
 # Applications that are tiled by yabai
-applications="(Google Chrome|Code|IntelliJ IDEA|iTerm2)"
+#applications="(Google Chrome|Code|iTerm2)"
+#yabai -m rule --add app!="^${applications}$" manage=off
+
+applications="()"
 yabai -m rule --add app!="^${applications}$" manage=off
 
-echo "yabai configuration loaded.."
+# float apps deny-list
+#yabai -m rule --add app="^Calendar|Slack|Mail|Spotify|Messages|System Preferences|Cisco AnyConnect Secure Mobility Client$" sticky=on manage=off
+
+#yabai -m rule --add app="^IntelliJ IDEA$" manage=off
+#yabai -m rule --add app="^IntelliJ IDEA$" title="( – )" manage=on
+
+#yabai -m rule --add app="^Amazon Chime$" manage=off
+#yabai -m rule --add app="^Amazon Chime$" title="(:)" manage=on
+
+# Shadow for floating windows
+#yabai -m config window_shadow float
+
+# focus window after active space changes
+#yabai -m signal --add event=space_changed action="yabai -m window --focus \$(yabai -m query --windows --space | jq .[0].id)"
+
+# focus window after active display changes
+#yabai -m signal --add event=display_changed action="yabai -m window --focus \$(yabai -m query --windows --space | jq .[0].id)"

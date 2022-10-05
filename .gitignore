@@ -43,3 +43,5 @@ foo
 .config/git/
 .config/rde/
 .config/syncthing/
+
+.aiopylgtv.sqlite
