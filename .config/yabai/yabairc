@@ -21,48 +21,40 @@ yabai -m config                                 \
     window_origin_display        default        \
     window_placement             second_child   \
     window_topmost               off            \
-    window_shadow                on             \
-    window_animation_duration    0.0            \
+    window_shadow                off            \
+    window_animation_duration    0.02           \
     window_opacity_duration      0.0            \
     active_window_opacity        1.0            \
     normal_window_opacity        0.90           \
-    window_opacity               off            \
+    window_opacity               on             \
     insert_feedback_color        0xffd75f5f     \
-    active_window_border_color   0xff775759     \
+    active_window_border_color   0xffc9a8fa     \
     normal_window_border_color   0xff555555     \
     window_border_width          4              \
     window_border_radius         12             \
-    window_border_blur           off            \
+    window_border_blur           on             \
     window_border_hidpi          on             \
     window_border                off            \
     split_ratio                  0.50           \
     split_type                   auto           \
     auto_balance                 off            \
     top_padding                  10             \
-    bottom_padding               20             \
-    left_padding                 20             \
-    right_padding                20             \
-    window_gap                   10             \
+    bottom_padding               15             \
+    left_padding                 15             \
+    right_padding                15             \
+    window_gap                   12             \
     layout                       bsp            \
     mouse_modifier               ctrl           \
     mouse_action1                move           \
     mouse_action2                resize         \
     mouse_drop_action            swap
 
-# Sets top padding based on whether running on the notched screen or not
+# Set top padding based on whether running on the notched screen or not
 yabai -m signal --add event=display_changed action="python3 ~/.config/yabai/set_padding.py"
 python3 ~/.config/yabai/set_padding.py
 
 # Applications that are tiled by yabai
-applications="(Google Chrome|iTerm2|Code|IntelliJ IDEA)"
-
+applications="(Google Chrome|Code|IntelliJ IDEA|iTerm2)"
 yabai -m rule --add app!="^${applications}$" manage=off
-
-# Everything listed gets sent to below layer to prevent 
-# them from covering floating applications/popup windows
-
-# Need to exclude iterm from applications or else it breaks hotkey window, so we don't use the full application list
-#yabai -m rule --add app="^${applications}$"    manage=on layer=below
-yabai -m rule --add app="^(Google Chrome|Code|IntelliJ IDEA)$"    manage=on layer=below
 
 echo "yabai configuration loaded.."

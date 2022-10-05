@@ -39,7 +39,7 @@ hyper - o : yabai -m window north --resize bottom:0:20 2> /dev/null || yabai -m 
 hyper - y : yabai -m window south --resize top:0:-20 2> /dev/null || yabai -m window --resize top:0:-20
 
 # Toggle full screen floating
-cmd - return : yabai -m window --toggle float --grid 1:1:0:0:1:1
+hyper - f : yabai -m window --toggle float --grid 1:1:0:0:1:1
 
 # make floating window fill screen
 alt - f : yabai -m window --grid 1:1:0:0:1:1
@@ -48,13 +48,13 @@ hyper - c : yabai -m window --toggle split
 
 ### Space Commands ###
 # create desktop, move window and follow focus - uses jq for parsing json (brew install jq) #
-ctrl - n : yabai -m space --create && \
+hyper - n : yabai -m space --create && \
                    index="$(yabai -m query --spaces --display | jq 'map(select(."is-native-fullscreen" == false))[-1].index')" && \
                    yabai -m window --space "${index}" && \
                    yabai -m space --focus "${index}"
 
 # Destroy current space
-ctrl - x : yabai -m space --destroy
+hyper - x : yabai -m space --destroy
 
 # space movement
 # 0x32 is the ` key
@@ -91,4 +91,3 @@ ctrl + alt - h : yabai -m window --insert west
 
 # toggle window zoom
 hyper - z : yabai -m window --toggle zoom-parent
-hyper - x : yabai -m window --toggle zoom-fullscreen

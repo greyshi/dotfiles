@@ -23,10 +23,10 @@ fzf_default_opts=(
 )
 export FZF_DEFAULT_OPTS="${fzf_default_opts[*]}"
 
-# Makes fzf respect .gitignore
-export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix --hidden --follow --exclude .git'
+# Calls fd but does not ignore files in .gitignore because home directory .gitignore excludes almost everything
+export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix --hidden --follow --exclude .git --no-ignore'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-export FZF_ALT_C_COMMAND="fd --type d --strip-cwd-prefix --hidden --follow --exclude .git"
+export FZF_ALT_C_COMMAND="fd --type d --strip-cwd-prefix --hidden --follow --exclude .git --no-ignore"
 
 # Remap fzf key bindings
 bindkey -r '^T'

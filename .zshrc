@@ -51,12 +51,12 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR='vim'
 
 # User configuration
-export LESS='-RiS#3NM~g'
+export LESS='-FRiS#3NM~g'
+
+source ~/.aliases
 
 # Load work configurations if they exist
 test -f ~/.work.zsh && source ~/.work.zsh
-
-source ~/.aliases
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

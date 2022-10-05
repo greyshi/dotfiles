@@ -19,6 +19,7 @@ alias vi="vim"
 alias vf='vim $(fzf)'
 alias o="open"
 alias oo="open ."
+alias py="ipython"
 
 # Git shortcuts that use git aliases
 alias g="git"
@@ -42,7 +43,8 @@ alias grbi="git rebase -i"
 alias gst="git stash"
 alias gstp="git stash pop"
 
-alias grep="rg"
+alias rg="rg --no-ignore-vcs -S"
+alias grep="rg --no-ignore-vcs -S"
 
 alias bat="bat --theme Dracula"
 
