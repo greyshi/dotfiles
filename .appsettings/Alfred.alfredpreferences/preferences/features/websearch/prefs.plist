@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>507505DB-0112-4DFD-9791-E05C3BB80FFB</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>c</string>
+			<key>text</key>
+			<string>Code Package</string>
+			<key>url</key>
+			<string>https://code.amazon.com/packages/search?term={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>A61E697F-FC89-4B35-ABE2-3AAAF5D8CCBC</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>sage</string>
+			<key>text</key>
+			<string>Sage</string>
+			<key>url</key>
+			<string>https://sage.amazon.com/search?q={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>BB63689B-4269-4E67-89A3-72A6AC20D5EB</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>w</string>
+			<key>text</key>
+			<string>Amazon Wiki</string>
+			<key>url</key>
+			<string>https://w.amazon.com/bin/view/Main/Search?text={query}&amp;f_type=DOCUMENT</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>CBE24E81-C08D-4BAD-B0F4-00BD3BC6E095</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>r</string>
+			<key>text</key>
+			<string>Subreddit</string>
+			<key>url</key>
+			<string>https://www.reddit.com/r/{query}/</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>E4297D68-FD90-4EB6-ACAC-BE6C04C8AC24</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>s</string>
+			<key>text</key>
+			<string>Code Search</string>
+			<key>url</key>
+			<string>https://code.amazon.com/search?term={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

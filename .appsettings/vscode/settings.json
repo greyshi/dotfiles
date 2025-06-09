@@ -1,0 +1,91 @@
+{
+    "editor.fontFamily": "Ubuntu Mono Ligaturized, Ubuntu Mono, Consolas, 'Courier New', monospace",
+    "window.zoomLevel": 1,
+    "editor.accessibilitySupport": "off",
+    "terminal.integrated.rightClickBehavior": "default",
+    "workbench.preferredDarkColorTheme": "Dracula",
+    "workbench.tips.enabled": false,
+    "zenMode.hideLineNumbers": false,
+    "window.autoDetectHighContrast": false,
+    "zenMode.centerLayout": false,
+    "editor.renderLineHighlight": "none",
+    "editor.occurrencesHighlight": "off",
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                " "
+            ],
+            "commands": [
+                ":nohl"
+            ],
+        },
+        {
+            "before": ["j"],
+            "after": ["g", "j"]
+        },
+        {
+            "before": ["k"],
+            "after": ["g", "k"]
+        }
+    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "window.menuBarVisibility": "toggle",
+    "vim.sneakReplacesF": true,
+    "vim.sneakUseIgnorecaseAndSmartcase": true,
+    "workbench.statusBar.visible": true,
+    "vim.useSystemClipboard": true,
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.replace": "block",
+    "vim.cursorStylePerMode.visual": "line",
+    "vim.cursorStylePerMode.visualblock": "block",
+    "vim.cursorStylePerMode.visualline": "line",
+    "workbench.startupEditor": "newUntitledFile",
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+    "editor.cursorStyle": "block",
+    "workbench.iconTheme": "vs-minimal",
+    "editor.selectionHighlight": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.guides.indentation": false,
+    "security.workspace.trust.banner": "never",
+    "security.workspace.trust.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "sync.autoUpload": true,
+    "sync.autoDownload": true,
+    "sync.quietSync": true,
+    "workbench.colorTheme": "Dracula Soft",
+    "terminal.explorerKind": "external",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.persistentSessionScrollback": 1000,
+    "terminal.integrated.showExitAlert": false,
+    "editor.wordWrap": "on",
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "/Users/ghoreysh/.vimrc",
+    "editor.cursorBlinking": "solid",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "update.showReleaseNotes": false,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.activityBar.location": "hidden",
+    "git.openRepositoryInParentFolders": "never",
+    "remote.SSH.defaultExtensions": [
+        "amazonwebservices.aws-toolkit-vscode"
+    ],
+    "files.trimTrailingWhitespace": true,
+    "amazonQ.suppressPrompts": {
+        "codeWhispererConnectionExpired": true,
+        "amazonQChatDisclaimer": true
+    },
+    "chat.commandCenter.enabled": false,
+    "aws.suppressPrompts": {
+        "yamlExtPrompt": true
+    }
+}
