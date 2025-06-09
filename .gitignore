@@ -17,6 +17,8 @@
 !.tmux.conf.local
 
 # Recursively allow files under directories
+!.appsettings/
+!.appsettings/**
 !.vim/
 !.vim/**
 !.config/
