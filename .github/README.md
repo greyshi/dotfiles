@@ -35,3 +35,5 @@ In Keyboard settings -> Keyboard Shortcuts -> App Shortcuts
 * Show Next Tab
 * Pin Tab
 
+Also, for your external keyboard set up the key remappings:
+![keys](key_remap.png)
