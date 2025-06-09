@@ -23,3 +23,15 @@ Create a local repository in the home directory and fetch the files from Github
 `.macos`: Customizes macOS settings to my preferences. It's based on the one [here](https://github.com/mathiasbynens/dotfiles).
 
 `.brew.sh`: Installs various tools and fonts using [homebrew](https://brew.sh/).
+
+### App Settings
+App settings are located in `.appsettings`
+
+### Set Keyboard shortcuts 
+In Keyboard settings -> Keyboard Shortcuts -> App Shortcuts
+* Select Next Tab
+* Select Previous Tab
+* Show Previous Tab
+* Show Next Tab
+* Pin Tab
+
