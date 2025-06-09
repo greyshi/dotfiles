@@ -47,3 +47,4 @@ foo
 .config/syncthing/
 
 .aiopylgtv.sqlite
+.DS_Store
