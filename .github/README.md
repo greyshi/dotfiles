@@ -37,3 +37,7 @@ In Keyboard settings -> Keyboard Shortcuts -> App Shortcuts
 
 Also, for your external keyboard set up the key remappings:
 ![keys](key_remap.png)
+
+Set the mission control hotkeys to switch to left and right spaces as well.
+
+In order to make the transition between spaces instant, go to Accessibility -> Display -> Reduce Motion
