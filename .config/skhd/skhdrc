@@ -17,18 +17,18 @@ ctrl - return : osascript ~/.config/skhd/new-iterm-window.scpt
 
 ### Window Commands ###
 # focus window cycle forward
-hyper - k : yabai -m window --focus next || yabai -m window --focus first_node
+#hyper - k : yabai -m window --focus next || yabai -m window --focus first_node
 # focus window cycle backwards
-hyper - j : yabai -m window --focus prev || yabai -m window --focus last_node
+#hyper - j : yabai -m window --focus prev || yabai -m window --focus last_node
 
 # move managed window
 # shift + alt - h : yabai -m window --warp north
 
 # swap managed window
-alt - j : yabai -m window --swap west
-alt - k : yabai -m window --swap east
-alt - h : yabai -m window --swap north
-alt - l : yabai -m window --swap south
+#alt - j : yabai -m window --swap west
+#alt - k : yabai -m window --swap east
+#alt - h : yabai -m window --swap north
+#alt - l : yabai -m window --swap south
 
 # balance size of windows
 hyper - r : yabai -m space --balance
