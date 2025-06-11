@@ -46,3 +46,4 @@ In order to make the transition between spaces instant, go to Accessibility -> D
 * Enable three finger drag in trackpad settings
 * Disable all notification sounds and pop ups for unimportant apps
 * Set alert volume to zero
+* Copy over .zsh_history
