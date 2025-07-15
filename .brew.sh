@@ -17,7 +17,6 @@ brew install coreutils
 
 # Install more recent versions of some macOS tools.
 brew install vim
-brew install openssh
 brew install git
 
 # Install useful tools

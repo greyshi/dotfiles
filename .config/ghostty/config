@@ -1,0 +1,26 @@
+theme = dracula
+macos-titlebar-style = tabs
+title = " "
+gtk-wide-tabs = false
+
+font-family = Ubuntu Mono
+font-size = 18
+font-thicken = true
+
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-style-blink = false
+
+quick-terminal-animation-duration = 0
+quick-terminal-screen = macos-menu-bar
+window-height = 1000
+
+# Key bindings
+keybind = super+k=next_tab
+keybind = super+j=previous_tab
+
+keybind = super+shift+j=text:\x0f\x70
+keybind = super+shift+k=text:\x0f\x6e
+
+keybind = global:ctrl+t=toggle_quick_terminal
+

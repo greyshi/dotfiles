@@ -1,5 +1,5 @@
 # Focus applications
-ctrl - s : open -a "Google Chrome"
+ctrl - s : open -a "Firefox"
 ctrl - m : open -a "Microsoft Outlook"
 ctrl - g : open -a "Spotify"
 ctrl - m : open -a "Mail"
