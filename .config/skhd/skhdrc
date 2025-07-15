@@ -10,7 +10,8 @@ ctrl - n : open -a "Slack"
 #ctrl - 0x29 : open -a ""  # ctrl + ;
 
 # Open new terminal widow
-ctrl - return : osascript ~/.config/skhd/new-iterm-window.scpt
+#ctrl - return : osascript ~/.config/skhd/new-iterm-window.scpt
+ctrl - return : open -a "Ghostty"
 
 #### Yabai Mappings ####
 # yabai key codes available here: https://github.com/koekeishiya/skhd/issues/1

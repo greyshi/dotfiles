@@ -15,6 +15,17 @@ quick-terminal-animation-duration = 0
 quick-terminal-screen = macos-menu-bar
 window-height = 1000
 
+link-url = true
+
+desktop-notifications = false
+
+scrollback-limit = 100000000
+
+clipboard-read = allow
+clipboard-write = allow
+copy-on-select = false
+clipboard-paste-protection = false
+
 # Key bindings
 keybind = super+k=next_tab
 keybind = super+j=previous_tab
