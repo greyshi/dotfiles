@@ -4,10 +4,7 @@ ctrl - m : open -a "Microsoft Outlook"
 ctrl - g : open -a "Spotify"
 ctrl - m : open -a "Mail"
 ctrl - f : open -a "Visual Studio Code"
-#ctrl - q : open -a "iTerm"
-ctrl - i : open -a "Intellij IDEA"
 ctrl - n : open -a "Slack"
-#ctrl - 0x29 : open -a ""  # ctrl + ;
 
 # Open new terminal widow
 #ctrl - return : osascript ~/.config/skhd/new-iterm-window.scpt

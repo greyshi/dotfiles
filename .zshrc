@@ -60,18 +60,6 @@ test -f ~/.work.zsh && source ~/.work.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-export PATH="/opt/homebrew/opt/node@20/bin:$PATH"
-
-. "$HOME/.local/bin/env"
-
-
-export CLAUDE_CODE_USE_BEDROCK=1
-#export ANTHROPIC_MODEL='us.anthropic.claude-3-7-sonnet-20250219-v1:0'
-export ANTHROPIC_MODEL='us.anthropic.claude-sonnet-4-20250514-v1:0'
-#export ANTHROPIC_MODEL='us.anthropic.claude-opus-4-20250514-v1:0'
-
-export DISABLE_PROMPT_CACHING=0
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
