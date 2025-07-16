@@ -10,6 +10,7 @@ font-thicken = true
 shell-integration-features = no-cursor
 cursor-style = block
 cursor-style-blink = false
+cursor-color = #f1fa8c
 
 quick-terminal-animation-duration = 0
 quick-terminal-screen = macos-menu-bar
