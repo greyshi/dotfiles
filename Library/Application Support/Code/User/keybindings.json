@@ -1,26 +1,6 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
     {
-        "key": "cmd+shift+1",
-        "command": "-editor.action.replaceOne",
-        "when": "editorFocus && findWidgetVisible"
-    },
-    {
-        "key": "cmd+shift+1",
-        "command": "-search.action.replace",
-        "when": "matchFocus && replaceActive && searchViewletVisible"
-    },
-    {
-        "key": "cmd+shift+1",
-        "command": "-search.action.replaceAllInFile",
-        "when": "fileMatchFocus && replaceActive && searchViewletVisible"
-    },
-    {
-        "key": "cmd+shift+1",
-        "command": "-search.action.replaceAllInFolder",
-        "when": "folderMatchFocus && replaceActive && searchViewletVisible"
-    },
-    {
         "key": "cmd+shift+2",
         "command": "-extension.vim_ctrl+shift+2",
         "when": "editorTextFocus && vim.active && vim.use<C-shift+2>"
@@ -153,10 +133,6 @@
         "command": "workbench.action.moveEditorToFirstGroup"
     },
     {
-        "key": "shift+alt+1",
-        "command": "-workbench.action.moveEditorToFirstGroup"
-    },
-    {
         "key": "alt+h",
         "command": "-workbench.action.replaceInFiles"
     },
@@ -196,7 +172,7 @@
         "key": "cmd+n",
         "command": "explorer.newFile"
     },
-    { "key": "shift+cmd+1",           "command": "workbench.view.explorer",
+    { "key": "shift+cmd+e",           "command": "workbench.view.explorer",
                                      "when": "viewContainer.workbench.view.explorer.enabled" },
     {
         "key": "cmd+alt+f",

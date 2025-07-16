@@ -58,7 +58,7 @@
     "sync.autoUpload": true,
     "sync.autoDownload": true,
     "sync.quietSync": true,
-    "workbench.colorTheme": "Dracula Soft",
+    "workbench.colorTheme": "Catppuccin Mocha",
     "terminal.explorerKind": "external",
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.defaultProfile.osx": "zsh",
@@ -87,5 +87,6 @@
     "chat.commandCenter.enabled": false,
     "aws.suppressPrompts": {
         "yamlExtPrompt": true
-    }
+    },
+    "window.commandCenter": false
 }
