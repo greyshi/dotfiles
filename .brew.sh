@@ -29,6 +29,11 @@ brew install pure
 brew install jq
 brew install zsh
 
+brew install koekeishiya/formulae/skhd
+
+# Start services
+brew services start skhd
+
 # Install fonts
 
 brew tap homebrew/cask-fonts
