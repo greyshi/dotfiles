@@ -10,3 +10,5 @@ Desktop.ini
 
 # Compiled python files
 *.pyc
+
+**/.claude/settings.local.json
