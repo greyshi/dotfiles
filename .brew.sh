@@ -41,6 +41,7 @@ brew install --cask font-fira-code
 brew install --cask font-hack-nerd-font
 brew install --cask sf-symbols
 brew install --cask betterdisplay
+brew install --cask ghostty
 
 # Ligaturized ubuntu mono:
 # https://github.com/vizhub-core/ubuntu-mono-ligaturized
