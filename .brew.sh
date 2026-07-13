@@ -24,21 +24,10 @@ brew install wget
 brew install fd
 brew install fzf
 brew install bat
-brew install syncthing
 brew install ripgrep
 brew install pure
 brew install jq
 brew install zsh
-
-brew install FelixKratz/formulae/sketchybar
-brew install koekeishiya/formulae/yabai
-brew install koekeishiya/formulae/skhd
-
-# Start services
-brew services start syncthing
-brew services start yabai
-brew services start skhd
-brew services start sketchybar
 
 # Install fonts
 
