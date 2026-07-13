@@ -20,6 +20,7 @@ alias vf='vim $(fzf)'
 alias o="open"
 alias oo="open ."
 alias py="ipython"
+alias n="vim ~/Documents/notes.txt"
 
 # Git shortcuts that use git aliases
 alias g="git"

@@ -12,9 +12,9 @@ cursor-style = block
 cursor-style-blink = false
 cursor-color = #f1fa8c
 
+quick-terminal-position = top
+quick-terminal-size = 100%
 quick-terminal-animation-duration = 0
-quick-terminal-screen = macos-menu-bar
-window-height = 1000
 
 link-url = true
 
@@ -24,7 +24,7 @@ scrollback-limit = 100000000
 
 clipboard-read = allow
 clipboard-write = allow
-copy-on-select = false
+copy-on-select = clipboard
 clipboard-paste-protection = false
 
 # Key bindings
@@ -36,3 +36,4 @@ keybind = super+shift+k=text:\x0f\x6e
 
 keybind = global:ctrl+t=toggle_quick_terminal
 
+keybind = shift+enter=text:"\n"
