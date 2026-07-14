@@ -38,6 +38,7 @@ brew services start skhd
 
 brew tap homebrew/cask-fonts
 brew install --cask font-fira-code
+brew install --cask font-ubuntu-mono
 brew install --cask font-hack-nerd-font
 brew install --cask sf-symbols
 brew install --cask betterdisplay
